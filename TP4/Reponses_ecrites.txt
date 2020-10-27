@@ -1,0 +1,13 @@
+- Modélisation retenue et paramètres appris :
+
+Modélisation retenue
+La modélisation du réseau de neurones est en 3 couches : une couche d'entrée, une couche caché et une couche de sortie. Pour chaque neurone, nous avons fait le choix d'utiliser une fonction d'activation en sigmoide.
+
+Paramètres appris
+Le réseau de neurones "apprend" les coefficients des matrices, theta associés à chaque couche du réseau.
+
+
+- Fonction de coût :
+
+Réseau de neurones
+On retient la fonction de coût vue précedemment en y ajoutant une somme permettant de prendre en compte le coût pour chaque classe ({0, 1, ..., 8, 9}). Cela donne un coût global au réseau de neurones.
